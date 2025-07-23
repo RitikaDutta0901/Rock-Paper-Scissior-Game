@@ -1,0 +1,90 @@
+#One{
+    height:150px;
+    font-size: 50px;
+    color:white;
+    border-style: solid;
+    background-color: rgb(29, 29, 36);
+    border-color: rgb(29, 29, 36);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#Two{
+    height:500px;
+    position:absolute;
+    top:180px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+#Rock{
+    height:200px;
+    width:200px;
+    position:relative;
+    left:250px;
+    background-image: url("rock.png");
+    background-size: cover;
+    margin-left:50px;
+}
+#Paper{
+    height:200px;
+    width:200px;
+    position:relative;
+    left:450px;
+    background-image: url("paper.png");
+    background-size: cover;
+    margin-left:50px;
+}
+#Scissior{
+    height:200px;
+    width:200px;
+    position:relative;
+    left:650px;
+    background-image: url("scissiors.png");
+    background-size: cover;
+    margin-left:50px;
+}
+#Three{
+    position:absolute;
+    top:580px;
+    display:flex;
+    justify-content: space-evenly;
+}
+#you{
+    position:relative;
+    left:600px;
+    font-size: 50px;
+}
+#comp{
+    position:relative;
+    left:800px;
+    font-size: 50px;
+}
+#btn{
+    position:absolute;
+    top:750px;
+    left:590px;
+    color:white;
+    font-size:50px;
+    height:100px;
+    width:500px;
+    border-style: solid;
+    background-color: rgb(29, 29, 36);
+    border-color: rgb(29, 29, 36);
+    border-radius: 50%;
+}
+#P1,#P2{
+    font-size:50px;
+    color:black;
+}
+#P1{
+    position:relative;
+    left:620px;
+}
+#P2{
+    position:relative;
+    left:820px;
+}
